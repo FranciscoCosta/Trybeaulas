@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+}
+.titulo {
+        display: block;
+        text-align: center;
+        width: 100%;
+        background-color: #002D3D;
+        margin: auto;
+        padding: 20px;
+        transition: 0.5s ease;
+        font-size: 40px;
+        font-weight: 700;
+        color: #FBFF1F;
+    }
+nav{
+    background-color: crimson;
+
+}
+nav:hover{
+    background-color: red;
+}   
+nav li{
+    display: inline-block;
+    text-align: center; 
+    margin: 20px 20px 20px 20px;
+    padding: 10px 30px;
+    border-radius: 4px;
+    text-decoration: none;;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+nav li a:hover {
+    color: black;
+
+}
+
+.icon{
+    display: inline;
+}
+.menu{
+    float: right;
+
+}
+
+
+.cabeca-artigo{
+    font-size: 45px;
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+
+
+em{
+    font-weight: bolder;    
+}
+
+.interesses{
+    margin-left: 30%;
+    margin-right: 30%;~
+}
+
+.fatos-n{
+    font-size: 25px;
+    text-align: center;
+    line-height: 4  0px;
+    text-justify: auto;
+}
+.texto-p{
+    font-size: 25px;
+    text-align: center;
+    text-justify: auto;
+    margin: 20px;
+}
+
+img{
+    margin: auto;
+    display: block;
+}
+
+.www {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.ref{
+    text-decoration: none;
+    font-size: 27px;
+    font-style: italic;
+    text-align: center;
+    list-style: none;
+}
+footer{
+    font-size: 30px;
+    font-weight: 500;
+    width: 100%;
+    color: white;
+    background-color: #002D3D;
+    text-align: center;
+    padding-top: 20px;
+    height: 50px;
+}
