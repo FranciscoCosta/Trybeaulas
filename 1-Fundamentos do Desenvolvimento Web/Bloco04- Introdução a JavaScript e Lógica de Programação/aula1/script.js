@@ -29,3 +29,4 @@ else if (trybe>= 16.30 && trybe < 17.50) {
 else {
     console.log("Fora!")
 }
+
