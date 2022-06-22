@@ -26,3 +26,16 @@ if (media> 20){
 else {
     console.log("valor menor ou igual a 20")
 }
+
+// Ex 5 //
+
+let maior = 0;
+for (let index1 = 0; index1 < numbers.length ; index1+=1){
+    if (numbers[index1]> maior) {
+        maior = numbers[index1];
+    }
+    else {
+        maior = maior;
+    }
+}
+console.log(maior);
