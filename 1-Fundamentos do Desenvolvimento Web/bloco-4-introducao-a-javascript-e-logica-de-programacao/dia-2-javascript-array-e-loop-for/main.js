@@ -15,4 +15,14 @@ console.log(soma);
 
 // Ex 3 //
 
-console.log(soma/numbers.length);
+let media = (soma/numbers.length);
+console.log(media);
+
+// Ex 4 //
+
+if (media> 20){
+    console.log("valor maior que 20")
+}
+else {
+    console.log("valor menor ou igual a 20")
+}
