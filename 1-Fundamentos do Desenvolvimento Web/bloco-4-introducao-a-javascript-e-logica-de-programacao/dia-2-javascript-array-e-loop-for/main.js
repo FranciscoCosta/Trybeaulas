@@ -84,3 +84,48 @@ for (let index5 = 0; index5 < array25.length; index5 += 1) {
 }
 console.log(dividido);
 console.log("\n", "Fim do exercício 9", "\n");
+
+// Ex Bonus 1 //
+let numbers1 = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+for (let index6 = 1; index6 < numbers1.length; index6 += 1) {
+  for (let index7 = 0; index7 < index6; index7 += 1) {
+    if (numbers1[index6] < numbers1[index7]) {
+      let position = numbers1[index6];
+      numbers1[index6] = numbers1[index7];
+      numbers1[index7] = position;
+    }
+  }
+}
+console.log(numbers1);
+console.log("\n", "Fim do exercício Bonus 1 ", "\n");
+
+// Ex Bonus 2 //
+
+for (let index6 = 1; index6 < numbers1.length; index6 += 1) {
+  for (let index7 = 0; index7 < index6; index7 += 1) {
+    if (numbers1[index6] > numbers1[index7]) {
+      let position1 = numbers1[index6];
+      numbers1[index6] = numbers1[index7];
+      numbers1[index7] = position1;
+    }
+  }
+}
+console.log(numbers1);
+console.log("\n", "Fim do exercício Bonus 2 ", "\n");
+
+// Ex Bonus 3 //
+let numbers2 = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+novoArray = [];
+for (let index8 = 0; index8 < numbers2.length; index8 += 1) {
+  if (index8 < numbers2.length - 1) {
+    let multi = numbers2[index8] * numbers2[index8 + 1];
+    novoArray.push(multi);
+  } else {
+    multi = numbers2[index8] * 2;
+    novoArray.push(multi);
+  }
+}
+
+console.log(novoArray);
+console.log("\n", "Fim do exercício Bonus 3 ", "\n");
