@@ -12,3 +12,7 @@ for(let index = 0; index < numbers.length; index+=1){
     soma = soma + numbers[index];
 }
 console.log(soma);
+
+// Ex 3 //
+
+console.log(soma/numbers.length);
