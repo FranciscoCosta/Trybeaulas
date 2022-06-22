@@ -1,0 +1,49 @@
+ol{
+    background-color: yellow;
+}
+li.par{
+    color: green;
+}
+li.impar{
+    text-transform: capitalize;
+}
+h1,h2,h3{
+    color: red;
+}
+h1.h-italico{
+    font-size: 40px;
+    border: 1px solid black;
+}
+li{
+    font-size: 20px;
+    text-decoration: none;
+}
+em.italico{
+    font-weight: bolder;
+}
+.azul{
+    color: blue;
+}
+.bg-rosa{
+    background-color: pink;
+}
+.Stack:hover{
+    font-weight: bolder;
+    color: orange;
+}
+.W3:hover{
+    font-weight: bolder;
+    color: green;
+}
+.MDN:hover{
+    font-weight: bolder;
+    color: black;
+}
+.Dev:hover{
+    font-weight: bolder;
+    color: yellow;
+}
+.Trybe:hover{
+    font-weight: bolder;
+    color: greenyellow;
+}

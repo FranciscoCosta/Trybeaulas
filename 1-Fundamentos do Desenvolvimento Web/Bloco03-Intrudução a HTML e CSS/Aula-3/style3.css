@@ -1,0 +1,6 @@
+div:hover{
+    border: 2px red solid;
+}
+div:active{
+    color: ranc;
+}
