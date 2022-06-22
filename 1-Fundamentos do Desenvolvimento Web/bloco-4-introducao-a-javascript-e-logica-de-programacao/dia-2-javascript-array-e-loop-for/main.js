@@ -29,7 +29,7 @@ else {
 
 // Ex 5 //
 
-let maior = 0;
+let maior = numbers[0];
 for (let index1 = 0; index1 < numbers.length ; index1+=1){
     if (numbers[index1]> maior) {
         maior = numbers[index1];
@@ -55,3 +55,17 @@ if(impar>0){
 }else{
     console.log('nenhum valor ímpar encontrado');
 }
+
+// Ex 7 //
+
+let menor = numbers[0];
+
+for (let index3 = 0; index3 < numbers.length ; index3+=1){
+    if (numbers[index3]< menor) {
+        menor = numbers[index3];
+    }
+    else {
+        menor = menor;
+    }
+}
+console.log(menor);
