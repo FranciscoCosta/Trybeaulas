@@ -69,3 +69,11 @@ for (let index3 = 0; index3 < numbers.length ; index3+=1){
     }
 }
 console.log(menor);
+
+// Ex 8 //
+
+let array25 = [];
+for(let index4 = 1 ; index4<= 25; index4+=1){
+    array25.push([index4]);
+}
+console.log(array25);
