@@ -39,3 +39,19 @@ for (let index1 = 0; index1 < numbers.length ; index1+=1){
     }
 }
 console.log(maior);
+
+// Ex 6 //
+let impar = 0;
+for (let index2 = 0; index2 < numbers.length ; index2+=1) {
+    if (numbers[index2] % 2 !== 0) {
+        impar = impar + 1;
+    }
+    else {
+        impar = impar;
+    }
+}
+if(impar>0){
+    console.log(impar);
+}else{
+    console.log('nenhum valor ímpar encontrado');
+}
