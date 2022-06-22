@@ -77,3 +77,11 @@ for(let index4 = 1 ; index4<= 25; index4+=1){
     array25.push([index4]);
 }
 console.log(array25);
+
+// Ex 9 //
+
+let dividido = [];
+for(let index5 = 0; index5 < array25.length; index5 +=1){
+    dividido.push(array25[index5]/2);
+}
+console.log(dividido);
