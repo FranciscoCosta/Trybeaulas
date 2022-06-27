@@ -269,9 +269,9 @@ numeros = {
   M: 1000,
 };
 
-string = "XIV";
 
 function romanosInt(string) {
+  string = string.toUpperCase();
   let soma = 0;
   for (let i = 0; i < string.length; i += 1) {
     for (j in numeros) {
